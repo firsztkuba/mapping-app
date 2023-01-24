@@ -22,7 +22,7 @@ def color_picker(value):
     else:
         return "darkred"
 
-map = folium.Map(location=[38.58, -99.09], zoom_start=5, tiles="cartodb dark_matter")
+map = folium.Map(location=[38.58, -99.09], zoom_start=5, tiles="cartodb")
 fgv = folium.FeatureGroup(name = "Volcanos")
 fgp = folium.FeatureGroup(name = "Population")
 
